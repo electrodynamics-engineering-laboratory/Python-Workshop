@@ -1,0 +1,5 @@
+from serial import *
+
+ser = serial.Serial('/dev/ttyUSB0');
+print(ser.name);
+ser.close();
